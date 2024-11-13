@@ -1,0 +1,245 @@
+/* Additional styling */
+/* .header {
+    text-align: center;
+    padding: 20px;
+
+  } */
+
+  .header{
+    background-color: #fff;
+    border: 2px solid gray; /* Gray bottom border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Shadow effect */
+    display: flex;                /* Enables flexbox */
+    justify-content: center;      /* Centers horizontally */
+    align-items: center;          /* Centers vertically */
+    height: 70px;
+    width: 100%;
+    /* position: fixed;  */
+}
+header img{
+    height: 100px;
+    width: 100px;
+}
+  .section-header {
+    color: #003366;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 50px 0;
+    font-size: x-large;
+    font-weight:600px ;
+  }
+  .form-check-input:checked + .form-check-label {
+    color: blue;    /* Change color to blue when radio button is selected */
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Change border color to blue on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a blue shadow for focus */
+  color: #007bff;
+}
+
+
+  .submit{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    width: 100px;
+    color: white;
+  
+    /* background-color: rgb(9, 12, 177); */
+  }
+  .btn.btn-link{
+width: 100%;
+color: black;
+text-align: start;
+text-decoration: none;
+
+  }
+  .price-card{
+    padding: 0%;
+
+  }
+  .card-1{
+    width: 100%;
+    /* border-radius: 0; */
+    border: bottom 2px ;
+    
+}
+
+  /* .btn-link:hover{
+    text-decoration: none;
+  } */
+  .card-deck .card {
+    min-width: 150px;
+  }
+  .footer {
+
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .price-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+.price-card .old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+.price-card .new-price {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+}
+.btn-primary { background-color: #1e90ff; }
+.btn-secondary { background-color: #20b2aa; }
+.btn-tertiary { background-color: #b56576; }
+.section-title {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.carousel-inner {
+  max-width: 600px;
+  margin: auto;
+}
+.carousel-item {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+.carousel-item h5 {
+  font-weight: bold;
+}
+.carousel-item p {
+  font-style: italic;
+  color: #666;
+}
+.carousel-indicators [data-bs-target] {
+  /* background-color:#007bff; */
+  background-color: #ddd;
+  gap: 1px;
+}
+.slider-btn {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.carousel-control-prev{
+  background-color: white;
+  border: none;
+}
+
+.carousel-control-next{
+  background-color: white;
+  border: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.863);
+  /* border-radius: 50%; */
+  color: #f8f9fa;
+  width: 30px;
+  height: 30px;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: white; /* Solid white background */
+    opacity: 0.7; /* Less opacity */
+    border-radius: 50%; /* Circular shape */
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1; /* Make the button itself fully opaque */
+}
+
+
+
+
+
+
+
+
+
+
+.section-title {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+.carousel-inner {
+  max-width: 600px;
+  margin: auto;
+}
+.carousel-item {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+.carousel-item h5 {
+  font-weight: bold;
+}
+.carousel-item p {
+  font-style: italic;
+  color: #666;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #007bff;
+}
+.slider-btn {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+/* Style for Previous and Next Buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #007bff; /* Match with background color */
+  border-radius: 50%; /* Make it circular */
+  width: 30px;
+  height: 30px;
+}
